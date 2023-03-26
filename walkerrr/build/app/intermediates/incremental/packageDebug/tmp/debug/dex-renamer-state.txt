@@ -1,0 +1,4 @@
+#Fri Mar 17 18:20:13 UZT 2023
+base.0=C\:\\Users\\jacek\\OneDrive\\Documents\\_FULL-STACK-DEVELOPER\\Northcoders\\projects\\walkerrr-mobile-app\\walkerrr-frontend\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
