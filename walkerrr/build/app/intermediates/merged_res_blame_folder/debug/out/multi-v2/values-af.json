@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jacek\\OneDrive\\Documents\\_FULL-STACK-DEVELOPER\\Northcoders\\projects\\walkerrr-mobile-app\\walkerrr-frontend\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
+            "outputFile": "C:\\Users\\jacek\\OneDrive\\Documents\\_FULL-STACK-DEVELOPER\\Northcoders\\Walkerrr_project\\walkerrr-frontend\\walkerrr\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jacek\\.gradle\\caches\\transforms-3\\3ee0f8915dc9bf42c60f3eef0b7bd28a\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-af\\values.xml",

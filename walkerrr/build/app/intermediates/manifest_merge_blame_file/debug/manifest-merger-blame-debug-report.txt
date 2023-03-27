@@ -13,14 +13,14 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\android\app\src\debug\AndroidManifest.xml:7:5-66
-15-->C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\android\app\src\debug\AndroidManifest.xml:7:22-64
+15-->C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\android\app\src\debug\AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-16-->C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\android\app\src\main\AndroidManifest.xml:3:5-79
-16-->C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\android\app\src\main\AndroidManifest.xml:3:22-76
+16-->C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\android\app\src\main\AndroidManifest.xml:3:5-79
+16-->C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\android\app\src\main\AndroidManifest.xml:3:22-76
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[:connectivity_plus] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
-17-->[:connectivity_plus] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+17-->[:connectivity_plus] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+17-->[:connectivity_plus] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 18    <uses-permission android:name="android.permission.WAKE_LOCK" />
 18-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\jacek\.gradle\caches\transforms-3\bfd20290ff5d39e38453adc1ae5698f7\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
 18-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\jacek\.gradle\caches\transforms-3\bfd20290ff5d39e38453adc1ae5698f7\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
@@ -72,25 +72,25 @@
 59            android:value="2" />
 60
 61        <service
-61-->[:firebase_auth] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+61-->[:firebase_auth] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 62            android:name="com.google.firebase.components.ComponentDiscoveryService"
-62-->[:firebase_auth] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+62-->[:firebase_auth] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
 63            android:directBootAware="true"
 63-->[com.google.firebase:firebase-common:20.3.0] C:\Users\jacek\.gradle\caches\transforms-3\ac20124166528b90eb750a9c2aadf745\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
 64            android:exported="false" >
 64-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jacek\.gradle\caches\transforms-3\0548e507d3019ac84ce4969b57803f45\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
 65            <meta-data
-65-->[:firebase_auth] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+65-->[:firebase_auth] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-66-->[:firebase_auth] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+66-->[:firebase_auth] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 67                android:value="com.google.firebase.components.ComponentRegistrar" />
-67-->[:firebase_auth] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+67-->[:firebase_auth] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 68            <meta-data
-68-->[:firebase_core] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+68-->[:firebase_core] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-69-->[:firebase_core] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+69-->[:firebase_core] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 70                android:value="com.google.firebase.components.ComponentRegistrar" />
-70-->[:firebase_core] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\projects\walkerrr-mobile-app\walkerrr-frontend\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+70-->[:firebase_core] C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\Walkerrr_project\walkerrr-frontend\walkerrr\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 71            <meta-data
 71-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jacek\.gradle\caches\transforms-3\0548e507d3019ac84ce4969b57803f45\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
 72                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
