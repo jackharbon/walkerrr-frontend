@@ -25,7 +25,7 @@
     Mobile app in Flutter, <a href="https://northcoders.com/our-courses/coding-bootcamp">Northcoders Software Developer Coding Bootcamp</a> final project.<br /> Finished January 2023.
     <br />
     <br />
-    <a href="https://github.com/jackharbon/walkerrr-frontend/">View Backend API</a>
+    <a href="https://walkerrr.netlify.app/">View demo</a>
     ·
     <a href="https://github.com/jackharbon/walkerrr-frontend/issues">Report Bug</a>
     ·
@@ -70,10 +70,10 @@
 
 Our team name was Merge Conflict with team members:
 
--   [David Holmes](https://github.com/DavidH3031)
--   [GJ Abordo](https://github.com/26june)
--   [Eddy King](https://github.com/EddySafc)
--   [Jack Harbon](https://github.com/jackharbon/)
+-  [David Holmes](https://github.com/DavidH3031)
+-  [GJ Abordo](https://github.com/26june)
+-  [Eddy King](https://github.com/EddySafc)
+-  [Jack Harbon](https://github.com/jackharbon/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,27 +81,27 @@ Our team name was Merge Conflict with team members:
 
 We had 4 different ideas for the project app described by:
 
--   User stories
--   MVP
--   RATS
--   Spiking
+-  User stories
+-  MVP
+-  RATS
+-  Spiking
 
 [See FigJam board >](https://www.figma.com/file/IepeA19A72gyPp7fKbP0Ga/merge-conflict-plan?node-id=165%3A340&t=tBJIxTIG2vH7dUhY-1)
 
 Finally, after spiking and testing different variants for the whole week, we chose Walkerrr with tech:
 
--   Firebase for authentication
--   MongoDB for back-end
--   Flutter/Dart for front-end
-    (rejecting React Native and Expo, as they created some problems during spiking).
+-  Firebase for authentication
+-  MongoDB for back-end
+-  Flutter/Dart for front-end
+   (rejecting React Native and Expo, as they created some problems during spiking).
 
 Our team worked remotely using:
 
--   work-in-pairs method (navigator and coder)
--   Slack Huddles for stand-up meetings and pairings
--   FigJam for planning
--   GitHub for version control
--   Trello board for organising tasks and tickets
+-  work-in-pairs method (navigator and coder)
+-  Slack Huddles for stand-up meetings and pairings
+-  FigJam for planning
+-  GitHub for version control
+-  Trello board for organising tasks and tickets
 
 ### Team's retrospection video on Youtube and on [metroretro](https://metroretro.io/BO354V8Y6SQ7)
 
@@ -125,12 +125,12 @@ Quests will be started by the user and have a time limit in which to complete th
 
 After login the user can:
 
--   navigate through the app (Steps, Quests, Settings)
--   view the list of quests
--   get an overview of the achievements (steps today, coins, quest progress)
--   manage their character
--   see and buy the shop items
--   see notifications about quests completion
+-  navigate through the app (Steps, Quests, Settings)
+-  view the list of quests
+-  get an overview of the achievements (steps today, coins, quest progress)
+-  manage their character
+-  see and buy the shop items
+-  see notifications about quests completion
 
 ### App presentation video on Youtube
 
@@ -164,10 +164,10 @@ To run the app you need a few pieces of software. The installation process will 
 
 Install useful software:
 
--   JavaScript runtime environment [Node.js](https://nodejs.org/en/)
--   Source code editor like [Visual Studio Code](https://code.visualstudio.com/Download)
--   Android SDK with emulator [Android Studio](https://developer.android.com/studio#downloads)
--   You may want to install desktop verion of [GitHub](https://desktop.github.com/)
+-  JavaScript runtime environment [Node.js](https://nodejs.org/en/)
+-  Source code editor like [Visual Studio Code](https://code.visualstudio.com/Download)
+-  Android SDK with emulator [Android Studio](https://developer.android.com/studio#downloads)
+-  You may want to install desktop verion of [GitHub](https://desktop.github.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,192 +181,192 @@ Install useful software:
 4. Open a modal window by clicking the green button "<> Code" and copy the link to your fork which looks like this: `https://github.com/your_github_name/walkerrr-backend.git`
 5. Open your Terminal (for Windows read [this](https://github.com/microsoft/terminal) and [this](https://learn.microsoft.com/en-us/windows/terminal/)) and navigate `cd /path/to/folder` to your projects folder.
 
--   Check Node.js installation
-    ```sh
-    node -v
-    ```
--   Ceck NPM installation
-    ```sh
-    npm -v
-    ```
--   Clone repository to your computer (change `your_github_name` to your actual GitHub login)
-    ```sh
-    git clone https://github.com/your_github_name/walkerrr-backend.git
-    ```
--   Navigate to repo folder
-    ```sh
-    cd walkerrr-backend
-    ```
--   Open Visual Studio Code
+-  Check Node.js installation
+   ```sh
+   node -v
+   ```
+-  Ceck NPM installation
+   ```sh
+   npm -v
+   ```
+-  Clone repository to your computer (change `your_github_name` to your actual GitHub login)
+   ```sh
+   git clone https://github.com/your_github_name/walkerrr-backend.git
+   ```
+-  Navigate to repo folder
+   ```sh
+   cd walkerrr-backend
+   ```
+-  Open Visual Studio Code
 
-    ```sh
-    code .
-    ```
+   ```sh
+   code .
+   ```
 
-    Open Visual Studio Code terminal (`Ctr + '`)
+   Open Visual Studio Code terminal (`Ctr + '`)
 
 ### II. Set up back-end (<i>skip to `III. Set up front-end` if you don't want to modify database schema</i>)
 
 1. Preparations
 
--   Navigate to back-end directory
-    ```sh
-    cd walkerrr-backend
-    ```
--   Update npm and install dependencies
-    ```sh
-    npm install npm@latest -g
-    ```
-    ```sh
-    sudo npm i --save
-    ```
-    ```sh
-    npm fund
-    ```
-    ```sh
-    npm init -y
-    ```
+-  Navigate to back-end directory
+   ```sh
+   cd walkerrr-backend
+   ```
+-  Update npm and install dependencies
+   ```sh
+   npm install npm@latest -g
+   ```
+   ```sh
+   sudo npm i --save
+   ```
+   ```sh
+   npm fund
+   ```
+   ```sh
+   npm init -y
+   ```
 
 2. Database connection
 
-    If you need help with those steps, watch YouTube tutorial [How to Connect Node.js App to MongoDB | Node.js & MongoDB Tutorial](https://youtu.be/bhiEJW5poHU) or read [MongoDB docs](https://www.mongodb.com/docs/drivers/node/current/quick-start/).
+   If you need help with those steps, watch YouTube tutorial [How to Connect Node.js App to MongoDB | Node.js & MongoDB Tutorial](https://youtu.be/bhiEJW5poHU) or read [MongoDB docs](https://www.mongodb.com/docs/drivers/node/current/quick-start/).
 
--   Go to [MongoDB](https://www.mongodb.com/cloud/atlas/register) page and register account (you can sign up with Google).
--   [Create new cluster ](https://www.mongodb.com/basics/clusters/mongodb-cluster-setup#:~:text=Creating%20a%20MongoDB%20Cluster%201%20Log%20in%20to,provider%20and%20region.%205%20Click%20on%20%E2%80%9CCreate%20cluster.%E2%80%9D)(database).<br />
-    Goal: "Build a new application".<br />
-    Type of application: f.e. "Web Application".<br />
-    Preferred language: "JavaScript".<br />
-    Click "Finish"
--   Click "Create" button for free shared database.<br />
-    Give a name "walkerrr" and create cluster.
--   Create a database user with username "walkerrr" and password (remember the password), click "Create user".
--   Add address IP to allowed IPs. Adding the CIDR 0.0.0.0/0 allows access from anywhere. Ensure that strong credentials (username and password) are used for all database users when allowing access from anywhere.
-    ```sh
-    0.0.0.0/0
-    ```
-    Choose Cloud access/Advanced.<br />
-    Click "Finish and Close" below.
--   Click "Connect" -> "Connect your application" button.
--   Copy your connection string, the link, which looks like this:
-    ```sh
-    "mongodb+srv://walkerrr:<password>@walkerrr.vvwslic.mongodb.net/?retryWrites=true&w=majority"
-    ```
-    Replace `<password>` with your password you entered on MongoDB website.
--   Open the file `.env-example`, save it as `.env` and paste the above link (with the proper password).
-    ```sh
-    "DATABASE_URL=mongodb+srv://walkerrr:<PASSWORD>@walkerrr.vvwslic.mongodb.net/?retryWrites=true&w=majority"
-    ```
--   Open Visual Studio Code terminal (check if you are in `walkerrr-backend` folder), type
-    ```sh
-    npm start
-    ```
--   If everything went fine you will get confirmation messages
-    ```sh
-    Listening on port 9095...
-    ```
-    ```sh
-    Remote MongoDB connected...
-    ```
+-  Go to [MongoDB](https://www.mongodb.com/cloud/atlas/register) page and register account (you can sign up with Google).
+-  [Create new cluster ](https://www.mongodb.com/basics/clusters/mongodb-cluster-setup#:~:text=Creating%20a%20MongoDB%20Cluster%201%20Log%20in%20to,provider%20and%20region.%205%20Click%20on%20%E2%80%9CCreate%20cluster.%E2%80%9D)(database).<br />
+   Goal: "Build a new application".<br />
+   Type of application: f.e. "Web Application".<br />
+   Preferred language: "JavaScript".<br />
+   Click "Finish"
+-  Click "Create" button for free shared database.<br />
+   Give a name "walkerrr" and create cluster.
+-  Create a database user with username "walkerrr" and password (remember the password), click "Create user".
+-  Add address IP to allowed IPs. Adding the CIDR 0.0.0.0/0 allows access from anywhere. Ensure that strong credentials (username and password) are used for all database users when allowing access from anywhere.
+   ```sh
+   0.0.0.0/0
+   ```
+   Choose Cloud access/Advanced.<br />
+   Click "Finish and Close" below.
+-  Click "Connect" -> "Connect your application" button.
+-  Copy your connection string, the link, which looks like this:
+   ```sh
+   "mongodb+srv://walkerrr:<password>@walkerrr.vvwslic.mongodb.net/?retryWrites=true&w=majority"
+   ```
+   Replace `<password>` with your password you entered on MongoDB website.
+-  Open the file `.env-example`, save it as `.env` and paste the above link (with the proper password).
+   ```sh
+   "DATABASE_URL=mongodb+srv://walkerrr:<PASSWORD>@walkerrr.vvwslic.mongodb.net/?retryWrites=true&w=majority"
+   ```
+-  Open Visual Studio Code terminal (check if you are in `walkerrr-backend` folder), type
+   ```sh
+   npm start
+   ```
+-  If everything went fine you will get confirmation messages
+   ```sh
+   Listening on port 9095...
+   ```
+   ```sh
+   Remote MongoDB connected...
+   ```
 
 3. A. Deploy back-end (Cyclic) or go to B. if you prefer Render.
 
--   Go to the [Cyclic](https://www.cyclic.sh/) website and sign up with your GitHub account.
--   Add your GitHub repo `walkerrr-backend` (watch [example on YouTube](https://www.youtube.com/watch?v=UnhTGEtOD6M) if you need help).
--   If necessary, edit "Environment" -> "Build Options": add "Root Path" and "Output Path"
-    ```sh
-    /walkerrr-backend
-    ```
--   Create new variable named `MONGO_URI` and paste the value (replace `password` with your password), you can watch [example on YouTube](https://www.youtube.com/watch?v=qGtEPIbB-7k) or [YouTube video](https://youtu.be/W5ybio3wVJQ) presenting whole process.
-    ```sh
-    "mongodb+srv://walkerrr:<password>@walkerrr.vvwslic.mongodb.net/?retryWrites=true&w=majority"
-    ```
+-  Go to the [Cyclic](https://www.cyclic.sh/) website and sign up with your GitHub account.
+-  Add your GitHub repo `walkerrr-backend` (watch [example on YouTube](https://www.youtube.com/watch?v=UnhTGEtOD6M) if you need help).
+-  If necessary, edit "Environment" -> "Build Options": add "Root Path" and "Output Path"
+   ```sh
+   /walkerrr-backend
+   ```
+-  Create new variable named `MONGO_URI` and paste the value (replace `password` with your password), you can watch [example on YouTube](https://www.youtube.com/watch?v=qGtEPIbB-7k) or [YouTube video](https://youtu.be/W5ybio3wVJQ) presenting whole process.
+   ```sh
+   "mongodb+srv://walkerrr:<password>@walkerrr.vvwslic.mongodb.net/?retryWrites=true&w=majority"
+   ```
 
 3. B. Deploy back-end (Render)
 
--   Go to the [Render](https://render.com/) website click "GET STARTED FOR FREE" and sign up with your GitHub account. In "Overview" choose "New Web Service" (you can watch YouTube [video tutorial](https://youtu.be/68ubggfsQlE) or read [this](https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/) tutorial).
--   Connect to your GitHub repo `walkerrr-backend`.
--   In dashboard fulfill form fields:<br />
-    Name: `walkerrr-backend`<br  />
--   Root Directory:
-    ```sh
-    walkerrr-backend
-    ```
--   Build Command:
-    ```sh
-    npm install
-    ```
--   Start command:
-    ```sh
-    node server.js
-    ```
--   Click "Advanced" tab and create new "Environment Variables" named `MONGO_URI` and paste the value (replace `password` with your password).
-    ```sh
-    "mongodb+srv://walkerrr:<password>@walkerrr.vvwslic.mongodb.net/?retryWrites=true&w=majority"
-    ```
--   Click blue button at the bottom "Create Web Service".
--   Check "Events" tab for latest deployments.
+-  Go to the [Render](https://render.com/) website click "GET STARTED FOR FREE" and sign up with your GitHub account. In "Overview" choose "New Web Service" (you can watch YouTube [video tutorial](https://youtu.be/68ubggfsQlE) or read [this](https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/) tutorial).
+-  Connect to your GitHub repo `walkerrr-backend`.
+-  In dashboard fulfill form fields:<br />
+   Name: `walkerrr-backend`<br  />
+-  Root Directory:
+   ```sh
+   walkerrr-backend
+   ```
+-  Build Command:
+   ```sh
+   npm install
+   ```
+-  Start command:
+   ```sh
+   node server.js
+   ```
+-  Click "Advanced" tab and create new "Environment Variables" named `MONGO_URI` and paste the value (replace `password` with your password).
+   ```sh
+   "mongodb+srv://walkerrr:<password>@walkerrr.vvwslic.mongodb.net/?retryWrites=true&w=majority"
+   ```
+-  Click blue button at the bottom "Create Web Service".
+-  Check "Events" tab for latest deployments.
 
 ### III. Set up front-end
 
 1. Cloning repo
 
--   Clone repository to your computer (change `your_github_name` to your actual GitHub login)
-    ```sh
-    git clone https://github.com/your_github_name/walkerrr-frontend.git
-    ```
--   Navigate to repo folder
-    ```sh
-    cd walkerrr-frontend
-    ```
--   Open Visual Studio Code
+-  Clone repository to your computer (change `your_github_name` to your actual GitHub login)
+   ```sh
+   git clone https://github.com/your_github_name/walkerrr-frontend.git
+   ```
+-  Navigate to repo folder
+   ```sh
+   cd walkerrr-frontend
+   ```
+-  Open Visual Studio Code
 
-    ```sh
-    code .
-    ```
+   ```sh
+   code .
+   ```
 
 2. Preparations
 
--   Install [Flutter](https://docs.flutter.dev/get-started/install) on your computer.
--   Install Flutter extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) or by searching within VS Code. The Dart extension will be installed automatically, if not already installed.
+-  Install [Flutter](https://docs.flutter.dev/get-started/install) on your computer.
+-  Install Flutter extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) or by searching within VS Code. The Dart extension will be installed automatically, if not already installed.
 
 3. Emulating the app
 
--   [Connect your mobile phone using USB](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/remote-debugging/) cable or [use an emulator](https://www.geeksforgeeks.org/how-to-run-a-flutter-app-on-android-emulator/) and type in the commands in the terminal.
--   Navigate to front-end directory
-    ```sh
-    cd walkerrr-frontend
-    ```
--   Edit a file [api_connection.dart](walkerrr-frontend\lib\services\api_connection.dart) and replace URL endpoint with your link in the line 5<br />
-    `const baseAPI =`
-    ```sh
-    'https://walkerrr-backend.cyclic.app';
-    ```
-    or
-    ```sh
-    'https://walkerrr-backend.onrender.com';
-    ```
--   Install updates
-    ```sh
-    flutter pub get
-    ```
-    ```sh
-    flutter upgrade
-    ```
--   Check Flutter installation
-    ```sh
-    flutter doctor
-    ```
--   You can additionally check connected devices
-    ```sh
-    flutter devices
-    ```
--   Run Flutter and wait for the app to install
-    ```sh
-    flutter run
-    ```
-    Wait a few minutes for the app to install.<br />
-    Your Walkerrr app is ready to play.<br  />
-    You can read [how to use emulator in Visual Studio Code](https://dev.to/dailydevtips1/running-a-flutter-app-on-ios-and-android-emulators-3h33).
+-  [Connect your mobile phone using USB](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/remote-debugging/) cable or [use an emulator](https://www.geeksforgeeks.org/how-to-run-a-flutter-app-on-android-emulator/) and type in the commands in the terminal.
+-  Navigate to front-end directory
+   ```sh
+   cd walkerrr-frontend
+   ```
+-  Edit a file [api_connection.dart](walkerrr-frontend\lib\services\api_connection.dart) and replace URL endpoint with your link in the line 5<br />
+   `const baseAPI =`
+   ```sh
+   'https://walkerrr-backend.cyclic.app';
+   ```
+   or
+   ```sh
+   'https://walkerrr-backend.onrender.com';
+   ```
+-  Install updates
+   ```sh
+   flutter pub get
+   ```
+   ```sh
+   flutter upgrade
+   ```
+-  Check Flutter installation
+   ```sh
+   flutter doctor
+   ```
+-  You can additionally check connected devices
+   ```sh
+   flutter devices
+   ```
+-  Run Flutter and wait for the app to install
+   ```sh
+   flutter run
+   ```
+   Wait a few minutes for the app to install.<br />
+   Your Walkerrr app is ready to play.<br  />
+   You can read [how to use emulator in Visual Studio Code](https://dev.to/dailydevtips1/running-a-flutter-app-on-ios-and-android-emulators-3h33).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -374,17 +374,17 @@ Install useful software:
 
 # Roadmap
 
--   [x] Login/register page
--   [x] Settings - user profile
--   [x] Quests page
--   [x] Steps page
--   [x] Inventory and Shop menu pages
--   [x] Global colors
--   [x] Redesign quests page
--   [x] Manual "steps count" for online testers
--   [ ] Customisation
--   [ ] Stats reseting
--   [ ] Notifications
+-  [x] Login/register page
+-  [x] Settings - user profile
+-  [x] Quests page
+-  [x] Steps page
+-  [x] Inventory and Shop menu pages
+-  [x] Global colors
+-  [x] Redesign quests page
+-  [x] Manual "steps count" for online testers
+-  [ ] Customisation
+-  [ ] Stats reseting
+-  [ ] Notifications
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -410,21 +410,21 @@ Project Link: [https://github.com/jackharbon/walkerrr-frontend](https://github.c
 
 # Acknowledgments
 
--   [Northcoders](https://northcoders.com)
--   [Firebase](https://firebase.google.com/docs/auth)
--   [Mongo DB](https://www.mongodb.com/docs/drivers/node/current/)
--   [Mongoose](https://mongoosejs.com/docs/index.html)
--   [Cyclic](https://www.cyclic.sh/)
--   [Node.js](https://nodejs.org/en/)
--   [NPM.js](https://www.npmjs.com/)
--   [Fluter](https://flutter.dev/)
--   [Dart](https://dart.dev/guides/language/language-tour)
--   [Dart Pad](https://www.dartpad.dev/?)
--   [Visual Studio Code](https://code.visualstudio.com/)
--   [Android Studio](https://developer.android.com/studio)
--   [Material Design](https://m3.material.io/)
--   [Netlify](https://app.netlify.com/signup/start)
--   [Render](https://render.com/)
+-  [Northcoders](https://northcoders.com)
+-  [Firebase](https://firebase.google.com/docs/auth)
+-  [Mongo DB](https://www.mongodb.com/docs/drivers/node/current/)
+-  [Mongoose](https://mongoosejs.com/docs/index.html)
+-  [Cyclic](https://www.cyclic.sh/)
+-  [Node.js](https://nodejs.org/en/)
+-  [NPM.js](https://www.npmjs.com/)
+-  [Fluter](https://flutter.dev/)
+-  [Dart](https://dart.dev/guides/language/language-tour)
+-  [Dart Pad](https://www.dartpad.dev/?)
+-  [Visual Studio Code](https://code.visualstudio.com/)
+-  [Android Studio](https://developer.android.com/studio)
+-  [Material Design](https://m3.material.io/)
+-  [Netlify](https://app.netlify.com/signup/start)
+-  [Render](https://render.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
