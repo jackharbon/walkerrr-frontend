@@ -1,0 +1,28 @@
+^C:\USERS\JACEK\ONEDRIVE\DOCUMENTS\_FULL-STACK-DEVELOPER\NORTHCODERS\COURSE-PROJECT\WALKERRR\BUILD\WINDOWS\CMAKEFILES\1DCF4FB19EDB893EC165C3C5A850112B\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\course-project\walkerrr FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\course-project\walkerrr\windows\flutter\ephemeral PROJECT_DIR=C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\course-project\walkerrr FLUTTER_TARGET=C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\course-project\walkerrr\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\jacek\OneDrive\Documents\_FULL-STACK-DEVELOPER\Northcoders\course-project\walkerrr\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JACEK\ONEDRIVE\DOCUMENTS\_FULL-STACK-DEVELOPER\NORTHCODERS\COURSE-PROJECT\WALKERRR\BUILD\WINDOWS\CMAKEFILES\18E8F57E5CC2CD49B69D7599751ED9ED\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JACEK\ONEDRIVE\DOCUMENTS\_FULL-STACK-DEVELOPER\NORTHCODERS\COURSE-PROJECT\WALKERRR\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/jacek/OneDrive/Documents/_FULL-STACK-DEVELOPER/Northcoders/course-project/walkerrr/windows -BC:/Users/jacek/OneDrive/Documents/_FULL-STACK-DEVELOPER/Northcoders/course-project/walkerrr/build/windows --check-stamp-file C:/Users/jacek/OneDrive/Documents/_FULL-STACK-DEVELOPER/Northcoders/course-project/walkerrr/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -5,6 +5,43 @@
          "enabled": true,
          "fre_notification": {
             "enabled": false,
+            "header": "Was opening this pane helpful to you?",
+            "text": "Was opening this pane helpful to you?"
+         },
+         "settings_description": "When a web link is opened from Bing chat response, the side pane will automatically open to persist the conversation.",
+         "settings_title": "Automatically open Bing chat conversation in the side pane"
+      },
+      "capabilities": {
+         "deprecated_hide_header": true
+      },
+      "default_locale": "en",
+      "description": "Get contextual information about the content and web page you are currently on.",
+      "icon": {
+         "raster_icon": {
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_chatB_active_dark.png/1.0.4/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_chatB_hc.png/1.0.4/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_chatB_active_light.png/1.0.4/asset"
+         }
+      },
+      "id": "cd4688a9-e888-48ea-ad81-76193d56b1be",
+      "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApf0j4GhOqQc886k4RFGJAt75zJgXJwO3kyeFebdCFpuW99J0EJxuYd5k422iWrW0xYN+0/BwdH/Z7+9iDKA3J1wpl5Q9AYv9ztKZD0ti3FftogxhaDckCQzmE5Ja+Dkopx+f4rY1sD/A0QLmsxfJRYYaKsBbUNGHdv4ee96m2/q5y8Bc6Avc3//tLkdmyR3re8YLe1KZKo5GBKqRfw0Wpor+CbrCnko/uGONn7YaV4v8shLuiTUJof6h1Wv0HsW3jLSrOqJ8pdQM9wh/PepetksLptaBE6QSPDJ1b21flecrsmYRJt2HTsfzvjmt27Mi6H5MSC9wKIo85hN93HcwIQIDAQAB",
+      "lifetime": "background",
+      "locales": [ "af", "am", "ar", "as", "az", "bg", "bn_IN", "bs", "ca", "ca_Es_VALENCIA", "cs", "cy", "da", "de", "el", "en", "en_GB", "es", "es_MX", "et", "eu", "fa", "fi", "fil", "fil", "fr", "fr_CA", "ga", "gd", "gl", "gu", "he", "hi", "hr", "hu", "hy", "id", "is", "it", "ja", "ka", "kk", "km", "kn", "ko", "kok", "kok", "lb", "lo", "lt", "lv", "mi", "mk", "ml", "mr", "ms", "mt", "nb", "ne", "nl", "nn", "or", "pa", "pl", "pt_BR", "pt_PT", "quz", "ro", "ru", "sk", "sl", "sq", "sr_Cyrl_BA", "sr_Cyrl_RS", "sr_Latn_RS", "sv", "ta", "te", "th", "tr", "tt", "ug", "uk", "ur", "uz", "vi", "zh_CN", "zh_TW" ],
+      "manifest_version": 3,
+      "name": "Discover",
+      "notifications": {
+         "enabled": true
+      },
+      "on_by_default": true,
+      "target": {
+         "command": "discover_chat"
+      },
+      "version": "1.0.4"
+   }, {
+      "auto_show": {
+         "enabled": true,
+         "fre_notification": {
+            "enabled": false,
             "header": "Get rewarded for using Microsoft Edge",
             "text": "We have automatically opened Action Centre to show you all the ways you can be rewarded."
          },
@@ -92,33 +129,6 @@
          "deprecated_hide_header": true
       },
       "default_locale": "en",
-      "description": "Get contextual information about the content and web page you are currently on.",
-      "icon": {
-         "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_chatB_active_dark.png/1.0.3/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_chatB_hc.png/1.0.3/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_chatB_active_light.png/1.0.3/asset"
-         }
-      },
-      "id": "cd4688a9-e888-48ea-ad81-76193d56b1be",
-      "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApf0j4GhOqQc886k4RFGJAt75zJgXJwO3kyeFebdCFpuW99J0EJxuYd5k422iWrW0xYN+0/BwdH/Z7+9iDKA3J1wpl5Q9AYv9ztKZD0ti3FftogxhaDckCQzmE5Ja+Dkopx+f4rY1sD/A0QLmsxfJRYYaKsBbUNGHdv4ee96m2/q5y8Bc6Avc3//tLkdmyR3re8YLe1KZKo5GBKqRfw0Wpor+CbrCnko/uGONn7YaV4v8shLuiTUJof6h1Wv0HsW3jLSrOqJ8pdQM9wh/PepetksLptaBE6QSPDJ1b21flecrsmYRJt2HTsfzvjmt27Mi6H5MSC9wKIo85hN93HcwIQIDAQAB",
-      "lifetime": "background",
-      "locales": [ "af", "am", "ar", "as", "az", "bg", "bn_IN", "bs", "ca", "ca_Es_VALENCIA", "cs", "cy", "da", "de", "el", "en", "en_GB", "es", "es_MX", "et", "eu", "fa", "fi", "fil", "fil", "fr", "fr_CA", "ga", "gd", "gl", "gu", "he", "hi", "hr", "hu", "hy", "id", "is", "it", "ja", "ka", "kk", "km", "kn", "ko", "kok", "kok", "lb", "lo", "lt", "lv", "mi", "mk", "ml", "mr", "ms", "mt", "nb", "ne", "nl", "nn", "or", "pa", "pl", "pt_BR", "pt_PT", "quz", "ro", "ru", "sk", "sl", "sq", "sr_Cyrl_BA", "sr_Cyrl_RS", "sr_Latn_RS", "sv", "ta", "te", "th", "tr", "tt", "ug", "uk", "ur", "uz", "vi", "zh_CN", "zh_TW" ],
-      "manifest_version": 3,
-      "name": "Discover",
-      "notifications": {
-         "enabled": true
-      },
-      "on_by_default": true,
-      "target": {
-         "command": "discover_chat"
-      },
-      "version": "1.0.3"
-   }, {
-      "capabilities": {
-         "deprecated_hide_header": true
-      },
-      "default_locale": "en",
       "description": "Find the web pages you've visited",
       "flights": [ "msEdgeHubAppHistory" ],
       "icon": {
@@ -146,9 +156,9 @@
       "description": "Coupons, compare savings and save money while you shop",
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_maximal_dark.png/1.3.10/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_hc.png/1.3.10/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_maximal_light.png/1.3.10/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_maximal_dark.png/1.3.11/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_hc.png/1.3.11/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_maximal_light.png/1.3.11/asset"
          }
       },
       "id": "523b5ef3-0b10-4154-8b62-10b2ebd00921",
@@ -161,10 +171,11 @@
       },
       "on_by_default": true,
       "on_by_default|device:managed": false,
+      "surfaces": [ "in_browser_sidebar" ],
       "target": {
          "url": "edge://shopping"
       },
-      "version": "1.3.10"
+      "version": "1.3.11"
    }, {
       "capabilities": {
          "resize_disabled": true
@@ -436,9 +447,9 @@
       "description": "Check email while staying in your flow",
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_dark.png/1.7.4/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_hc.png/1.7.4/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_light.png/1.7.4/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_dark.png/1.7.5/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_hc.png/1.7.5/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_light.png/1.7.5/asset"
          }
       },
       "id": "8682d0fa-50b3-4ece-aa5b-e0b33f9919e2",
@@ -461,12 +472,12 @@
       "on_by_default": true,
       "remember_last_path": true,
       "target": {
-         "url": "https://outlook.live.com/mail/inbox?isExtension=true&sharedHeader=1&nlp=1",
-         "url|auth:aad": "https://outlook.office.com/mail/inbox?isExtension=true&sharedHeader=1"
+         "url": "https://outlook.live.com/mail/inbox?isExtension=true&sharedHeader=1&nlp=1&client_flight=outlookedge",
+         "url|auth:aad": "https://outlook.office.com/mail/inbox?isExtension=true&sharedHeader=1&client_flight=outlookedge"
       },
       "trusted_domains": [ "live.com", "office.com", "microsoftonline.com", "microsoft.com", "office365.com" ],
       "trusted_types": [ "default", "dompurify" ],
-      "version": "1.7.4"
+      "version": "1.7.5"
    }, {
       "default_locale": "en",
       "description": "Empower people to express themselves creatively",
@@ -652,12 +663,11 @@
       "description": "Short & easy exercise sessions at your seat for a quick healthy break",
       "disabled": true,
       "disabled|locale:en": false,
-      "flights": [ "msEdgeHubAppHealth" ],
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_health_maximal_dark.png/0.1.10/asset",
-            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_health_hc.png/0.1.10/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_health_maximal_light.png/0.1.10/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_health_maximal_dark.png/1.0.0/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_health_hc.png/1.0.0/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_health_maximal_light.png/1.0.0/asset"
          }
       },
       "id": "b0197d6d-a306-4106-8536-17bb5ecfd446",
@@ -668,7 +678,7 @@
       "target": {
          "url": "https://www.msn.com/en-us/health/healthapp"
       },
-      "version": "0.1.10"
+      "version": "1.0.0"
    }, {
       "capabilities": {
          "show_domain_in_header": true
@@ -1442,7 +1452,9 @@
       "flights": [ "msEdgeHubAppTheater" ],
       "icon": {
          "raster_icon": {
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_theater.png/1.0.0/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_theater_maximal_dark.png/1.0.1/asset",
+            "high_contrast": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_theater_hc.png/1.0.1/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_theater_maximal_light.png/1.0.1/asset"
          }
       },
       "id": "3458dfd2-bf1b-4d00-a6dd-a74a59d523c7",
@@ -1454,7 +1466,7 @@
          "url": "https://www.bing.com/theater?features=theater",
          "url|locale:zh_CN": "https://cn.bing.com/theater?features=theater"
       },
-      "version": "1.0.0"
+      "version": "1.0.1"
    }, {
       "default_locale": "en",
       "description": "Watch videos on the TikTok",
@@ -1522,6 +1534,25 @@
          "url": "edge://collections"
       },
       "version": "1.0.3"
+   }, {
+      "default_locale": "en",
+      "description": "Google's AI Chatbot",
+      "flights": [ "msEdgeHubAppBard" ],
+      "icon": {
+         "raster_icon": {
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_bard_light.png/1.0.0/asset"
+         }
+      },
+      "id": "0f84ad2b-09f2-4953-a495-2bf5a2842295",
+      "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAucZ3waeSlunziQEuiX5Or6iv5dqMF1cCt6lyk9jsDI+uVaNPMTZSemJtG9FaTJ0FNRfb9ptv66XypREN/hjKbzMqYrVPTLWuGTi4WOgubsPu1rTuRQqH2yebOw2MWNQdcLZlKjNDaqv0ztkKc5qBJl2xjaquus0MLjSd0JqU826Z2a7zn8o1yZDkD4wwgFEeav/W5qpVVLTnuBshEZ/yS1wuELa0o1iA2E1dii312ZoZkNFaDJF4Zy7grAP8ESRIw3L1PRIWI/UmslazlzNiktBKyJGH7i+ncgEmoC60ZSxkppfLfTV1kcHJ1KMO+DrXR85gjeZ/GnpgM7naBPJnwIDAQAB",
+      "locales": [ "en" ],
+      "manifest_version": 3,
+      "name": "Bard",
+      "tags": [ "third_party" ],
+      "target": {
+         "url": "https://bard.google.com/"
+      },
+      "version": "1.0.0"
    } ],
    "manifest_version": "4.0.0"
 }
