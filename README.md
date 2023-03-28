@@ -53,6 +53,7 @@
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#new-global-colors">New Global Colors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -388,6 +389,13 @@ Install useful software:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- NEW GLOBAL COLORS -->
+
+# New Global Colors
+
+<img src="new_global_colors.jpg" alt="new global colors">
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
 
 # License
